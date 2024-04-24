@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "to-rid"
+version = "0.1.0"
+description = "I am not a big fan of poetry but it seems cool."
+authors = ["andmar680 <andmar680@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.1.16"
+matplotlib = "^3.8.4"
+Flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
